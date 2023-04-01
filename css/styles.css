@@ -1,0 +1,221 @@
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar{
+    padding-bottom: 5%;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    padding-right: 0;
+}
+.nav-item{
+    margin-right: 3rem;
+}
+.nav-link{
+    color: aliceblue;
+}
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+    font-weight: 800;
+    color: aliceblue;
+}
+
+h2{
+    font-family: Montserrat-bold;
+    font-size:2.5rem;
+    line-height:1.2;
+}
+
+h3{
+    font-size: 2rem;
+    font-family: 'Montserrat-Black', sans-serif;
+}
+
+p{
+    font-weight: 100;
+    color: grey;
+}
+em{
+    color: aliceblue;
+}
+
+/* Title */
+
+#title{
+    background-color:rgb(241, 116, 137) ;
+    padding: 5% 15% 0 15%;
+}
+.dog-image{
+    /* float: right; */
+    /* margin: 0 5%; */
+    width: 60%;
+    transform: rotate(24deg);
+    position:relative;
+    top: 5rem;
+    right: -30%;
+    z-index: 1;
+}
+.download-button{
+    margin: 7% 5% 5% 0;
+}
+.download-button:hover{
+    /* color: #fff; */
+    background-color: aliceblue;
+    color: #000;
+}
+
+.fa-brands{
+    padding: 0 5% 0 0;
+}
+
+/* feature */
+#features{
+    /* margin: 10% 0 10% 0; */
+    padding: 7% 15%;
+    position:relative;
+    background-color: #fff;
+    z-index: 2;
+}
+.feature-container{
+    /* padding: 5% 15%; */
+    text-align: center;
+    padding: 4.5%;
+}
+.feature-text{
+    margin-bottom: 2rem;
+}
+
+.icon{
+    margin-bottom: 1rem;
+    color: pink;
+}
+.icon:hover{
+color:rgb(241, 116, 137);
+}
+
+/* Testomonial */
+#testimonials{
+    background-color:rgb(241, 116, 137);
+    text-align: center;
+    
+    /* margin-bottom: 6rem; */
+    
+}
+.testimonial-col{
+    padding: 5% 15%;
+}
+.testimonial-text{
+    /* font-size: 1.5rem; */
+    color: aliceblue;
+    margin: 5% 0;
+}
+.testimonial-image{
+    /* height: auto; */
+    width: 8rem;
+    border-radius: 100%;
+    /* float:left; */
+}
+/* .carousel-item{
+    position: relative;;
+    margin-bottom: 5rem;
+} */
+
+
+/* Press */
+#press{
+    
+    text-align: center;
+    background-color:rgb(241, 116, 137);
+}
+.press-container{
+    text-align: center;
+    padding: 4.5%;
+    padding-top: 0;
+}
+.Press-image{
+    width: 8rem;
+    padding-bottom: 1rem;
+}
+
+/* Pricing */
+#pricing{
+    padding: 7% 15%;
+    text-align: center;
+
+}
+
+.price-h2{
+    font-size: 2.5rem;
+    padding-bottom: 2%;
+}
+#price-P{
+    padding-bottom: 1.5%;
+}
+.Price-btn:active{
+    color: aliceblue;
+}
+
+/* cta section */
+#cta{
+    background-color:rgb(241, 116, 137);
+}
+.cta-container{
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading{
+    color: aliceblue;
+    font-family: 'Montserrat-Bold';
+    line-height: 1.5;
+    font-size: 3rem;
+    /* padding: 7% 0 0; */
+}
+
+/* footer */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer-text{
+    font-size: 1.2rem;
+}
+
+.footer-icon{
+    margin-bottom: 2%;
+}
+
+
+
+@media (min-width:991px) and (max-width:1090px)  {
+
+   .dog-image{
+       width: 80%;
+       
+    } 
+}
+
+
+
+@media (max-width:990px) {
+    
+    #title{
+        text-align: center;
+    }
+    .dog-image{
+        margin-bottom: 5%;
+        width: 50%;
+        transform: rotate(0deg);
+        position:static;
+    }
+
+    Press-image{
+        width: 5rem;
+        padding-bottom: 1rem;
+    }
+
+}
